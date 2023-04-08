@@ -363,13 +363,14 @@ nav .fas{
 @media only screen  and (max-width: 600px){
     #header{
       background-image: url(images/phone-background.jpeg);
+      background-position: relative;
     }
     .header-text{
-      margin-top: 100%;
-      font-size: 16px;
+      margin-top: 80%;
+      font-size: 10px;
     }
     .header-text h1{
-      font-size: 30px;
+      font-size: 20px;
     }
     nav .fas{
       display: block;
@@ -379,8 +380,8 @@ nav .fas{
       background-color: #ff004f;
       position: fixed;
       top: 0;
-      right: -200px;
-      width: 200px;
+      right: -100px;
+      width: 100px;
       height: 100vh;
       padding-top: 50px;
       z-index: 2;
@@ -388,7 +389,7 @@ nav .fas{
     }
     nav ul li{
       display: block;
-      margin: 25px;
+      margin: 5px;
     }
     nav ul .fas{
       position: absolute;
